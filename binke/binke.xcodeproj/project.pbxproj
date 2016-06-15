@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE3344D71D0E4E520081C8AB /* QRCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3344D61D0E4E520081C8AB /* QRCodeManager.m */; };
+		FE3344EA1D0E9E1A0081C8AB /* ZTFShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3344E91D0E9E1A0081C8AB /* ZTFShopViewController.m */; };
+		FE3344ED1D0E9E260081C8AB /* ZTFCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3344EC1D0E9E260081C8AB /* ZTFCarViewController.m */; };
+		FE3344F01D0E9E2E0081C8AB /* ZTFMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3344EF1D0E9E2E0081C8AB /* ZTFMyViewController.m */; };
+		FE3344F31D0E9E3E0081C8AB /* ZTFClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3344F21D0E9E3E0081C8AB /* ZTFClassViewController.m */; };
+		FE45BB9C1D05608A005C7998 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE45BB9B1D05608A005C7998 /* main.m */; };
+		FE45BB9F1D05608A005C7998 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE45BB9E1D05608A005C7998 /* AppDelegate.m */; };
+		FE45BBA21D05608A005C7998 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE45BBA11D05608A005C7998 /* ViewController.m */; };
+		FE45BBA51D05608B005C7998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE45BBA31D05608B005C7998 /* Main.storyboard */; };
+		FE45BBA71D05608B005C7998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE45BBA61D05608B005C7998 /* Assets.xcassets */; };
+		FE45BBAA1D05608B005C7998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE45BBA81D05608B005C7998 /* LaunchScreen.storyboard */; };
+		FE45BBB81D0562F1005C7998 /* ZTFTabBarCon.m in Sources */ = {isa = PBXBuildFile; fileRef = FE45BBB71D0562F1005C7998 /* ZTFTabBarCon.m */; };
+		FE45BBBB1D056363005C7998 /* ZTFNCCon.m in Sources */ = {isa = PBXBuildFile; fileRef = FE45BBBA1D056363005C7998 /* ZTFNCCon.m */; };
+		FE45BBC71D057444005C7998 /* ZTF1TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE45BBC61D057444005C7998 /* ZTF1TableViewController.m */; };
+		FE80E89D1D0C37F300096EFF /* UIImage+Image1.m in Sources */ = {isa = PBXBuildFile; fileRef = FE80E89C1D0C37F300096EFF /* UIImage+Image1.m */; };
+		FE8DAB451D0D7BE900DD9CFA /* ZTFSaoController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8DAB431D0D7BE900DD9CFA /* ZTFSaoController.m */; };
+		FE8DAB461D0D7BE900DD9CFA /* ZTFSaoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8DAB441D0D7BE900DD9CFA /* ZTFSaoController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE3344D51D0E4E520081C8AB /* QRCodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeManager.h; sourceTree = "<group>"; };
+		FE3344D61D0E4E520081C8AB /* QRCodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeManager.m; sourceTree = "<group>"; };
+		FE3344E81D0E9E1A0081C8AB /* ZTFShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFShopViewController.h; sourceTree = "<group>"; };
+		FE3344E91D0E9E1A0081C8AB /* ZTFShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTFShopViewController.m; sourceTree = "<group>"; };
+		FE3344EB1D0E9E260081C8AB /* ZTFCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFCarViewController.h; sourceTree = "<group>"; };
+		FE3344EC1D0E9E260081C8AB /* ZTFCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTFCarViewController.m; sourceTree = "<group>"; };
+		FE3344EE1D0E9E2E0081C8AB /* ZTFMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFMyViewController.h; sourceTree = "<group>"; };
+		FE3344EF1D0E9E2E0081C8AB /* ZTFMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTFMyViewController.m; sourceTree = "<group>"; };
+		FE3344F11D0E9E3E0081C8AB /* ZTFClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFClassViewController.h; sourceTree = "<group>"; };
+		FE3344F21D0E9E3E0081C8AB /* ZTFClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTFClassViewController.m; sourceTree = "<group>"; };
+		FE45BB971D05608A005C7998 /* binke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = binke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE45BB9B1D05608A005C7998 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE45BB9D1D05608A005C7998 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE45BB9E1D05608A005C7998 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE45BBA01D05608A005C7998 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE45BBA11D05608A005C7998 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE45BBA41D05608B005C7998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE45BBA61D05608B005C7998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE45BBA91D05608B005C7998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE45BBAB1D05608B005C7998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE45BBB61D0562F1005C7998 /* ZTFTabBarCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFTabBarCon.h; sourceTree = "<group>"; };
+		FE45BBB71D0562F1005C7998 /* ZTFTabBarCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTFTabBarCon.m; sourceTree = "<group>"; };
+		FE45BBB91D056363005C7998 /* ZTFNCCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFNCCon.h; sourceTree = "<group>"; };
+		FE45BBBA1D056363005C7998 /* ZTFNCCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTFNCCon.m; sourceTree = "<group>"; };
+		FE45BBC51D057444005C7998 /* ZTF1TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTF1TableViewController.h; path = ../../main/ZTF1TableViewController.h; sourceTree = "<group>"; };
+		FE45BBC61D057444005C7998 /* ZTF1TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTF1TableViewController.m; path = ../../main/ZTF1TableViewController.m; sourceTree = "<group>"; };
+		FE80E89B1D0C37F300096EFF /* UIImage+Image1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Image1.h"; path = "../../UIImage+Image1.h"; sourceTree = "<group>"; };
+		FE80E89C1D0C37F300096EFF /* UIImage+Image1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Image1.m"; path = "../../UIImage+Image1.m"; sourceTree = "<group>"; };
+		FE8DAB421D0D7BE900DD9CFA /* ZTFSaoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFSaoController.h; sourceTree = "<group>"; };
+		FE8DAB431D0D7BE900DD9CFA /* ZTFSaoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTFSaoController.m; sourceTree = "<group>"; };
+		FE8DAB441D0D7BE900DD9CFA /* ZTFSaoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZTFSaoController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE45BB941D05608A005C7998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE3344D41D0E4E520081C8AB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FE80E89B1D0C37F300096EFF /* UIImage+Image1.h */,
+				FE80E89C1D0C37F300096EFF /* UIImage+Image1.m */,
+				FE3344D51D0E4E520081C8AB /* QRCodeManager.h */,
+				FE3344D61D0E4E520081C8AB /* QRCodeManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		FE3344D81D0E898F0081C8AB /* 分类  */ = {
+			isa = PBXGroup;
+			children = (
+				FE3344D91D0E898F0081C8AB /* c */,
+				FE3344DA1D0E898F0081C8AB /* m */,
+				FE3344DB1D0E898F0081C8AB /* v */,
+			);
+			path = "分类 ";
+			sourceTree = "<group>";
+		};
+		FE3344D91D0E898F0081C8AB /* c */ = {
+			isa = PBXGroup;
+			children = (
+				FE3344F11D0E9E3E0081C8AB /* ZTFClassViewController.h */,
+				FE3344F21D0E9E3E0081C8AB /* ZTFClassViewController.m */,
+			);
+			path = c;
+			sourceTree = "<group>";
+		};
+		FE3344DA1D0E898F0081C8AB /* m */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = m;
+			sourceTree = "<group>";
+		};
+		FE3344DB1D0E898F0081C8AB /* v */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = v;
+			sourceTree = "<group>";
+		};
+		FE3344DC1D0E898F0081C8AB /* 个人 */ = {
+			isa = PBXGroup;
+			children = (
+				FE3344DD1D0E898F0081C8AB /* c */,
+				FE3344DE1D0E898F0081C8AB /* m */,
+				FE3344DF1D0E898F0081C8AB /* v */,
+			);
+			path = "个人";
+			sourceTree = "<group>";
+		};
+		FE3344DD1D0E898F0081C8AB /* c */ = {
+			isa = PBXGroup;
+			children = (
+				FE3344EE1D0E9E2E0081C8AB /* ZTFMyViewController.h */,
+				FE3344EF1D0E9E2E0081C8AB /* ZTFMyViewController.m */,
+			);
+			path = c;
+			sourceTree = "<group>";
+		};
+		FE3344DE1D0E898F0081C8AB /* m */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = m;
+			sourceTree = "<group>";
+		};
+		FE3344DF1D0E898F0081C8AB /* v */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = v;
+			sourceTree = "<group>";
+		};
+		FE3344E01D0E898F0081C8AB /* 购物车 */ = {
+			isa = PBXGroup;
+			children = (
+				FE3344E11D0E898F0081C8AB /* c */,
+				FE3344E21D0E898F0081C8AB /* m */,
+				FE3344E31D0E898F0081C8AB /* v */,
+			);
+			path = "购物车";
+			sourceTree = "<group>";
+		};
+		FE3344E11D0E898F0081C8AB /* c */ = {
+			isa = PBXGroup;
+			children = (
+				FE3344EB1D0E9E260081C8AB /* ZTFCarViewController.h */,
+				FE3344EC1D0E9E260081C8AB /* ZTFCarViewController.m */,
+			);
+			path = c;
+			sourceTree = "<group>";
+		};
+		FE3344E21D0E898F0081C8AB /* m */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = m;
+			sourceTree = "<group>";
+		};
+		FE3344E31D0E898F0081C8AB /* v */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = v;
+			sourceTree = "<group>";
+		};
+		FE3344E41D0E898F0081C8AB /* 商城 */ = {
+			isa = PBXGroup;
+			children = (
+				FE3344E51D0E898F0081C8AB /* c */,
+				FE3344E61D0E898F0081C8AB /* m */,
+				FE3344E71D0E898F0081C8AB /* v */,
+			);
+			path = "商城";
+			sourceTree = "<group>";
+		};
+		FE3344E51D0E898F0081C8AB /* c */ = {
+			isa = PBXGroup;
+			children = (
+				FE3344E81D0E9E1A0081C8AB /* ZTFShopViewController.h */,
+				FE3344E91D0E9E1A0081C8AB /* ZTFShopViewController.m */,
+			);
+			path = c;
+			sourceTree = "<group>";
+		};
+		FE3344E61D0E898F0081C8AB /* m */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = m;
+			sourceTree = "<group>";
+		};
+		FE3344E71D0E898F0081C8AB /* v */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = v;
+			sourceTree = "<group>";
+		};
+		FE45BB8E1D05608A005C7998 = {
+			isa = PBXGroup;
+			children = (
+				FE45BB991D05608A005C7998 /* binke */,
+				FE45BB981D05608A005C7998 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE45BB981D05608A005C7998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE45BB971D05608A005C7998 /* binke.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE45BB991D05608A005C7998 /* binke */ = {
+			isa = PBXGroup;
+			children = (
+				FE45BBB11D0562B7005C7998 /* bink */,
+				FE45BB9D1D05608A005C7998 /* AppDelegate.h */,
+				FE45BB9E1D05608A005C7998 /* AppDelegate.m */,
+				FE45BBA01D05608A005C7998 /* ViewController.h */,
+				FE45BBA11D05608A005C7998 /* ViewController.m */,
+				FE45BBA31D05608B005C7998 /* Main.storyboard */,
+				FE45BBA61D05608B005C7998 /* Assets.xcassets */,
+				FE45BBA81D05608B005C7998 /* LaunchScreen.storyboard */,
+				FE45BBAB1D05608B005C7998 /* Info.plist */,
+				FE45BB9A1D05608A005C7998 /* Supporting Files */,
+			);
+			path = binke;
+			sourceTree = "<group>";
+		};
+		FE45BB9A1D05608A005C7998 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE45BB9B1D05608A005C7998 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE45BBB11D0562B7005C7998 /* bink */ = {
+			isa = PBXGroup;
+			children = (
+				FE3344D81D0E898F0081C8AB /* 分类  */,
+				FE3344DC1D0E898F0081C8AB /* 个人 */,
+				FE3344E01D0E898F0081C8AB /* 购物车 */,
+				FE3344E41D0E898F0081C8AB /* 商城 */,
+				FE3344D41D0E4E520081C8AB /* Tools */,
+				FE8DAB3E1D0D5A5800DD9CFA /* 首页 */,
+				FE45BBB21D0562B7005C7998 /* main */,
+			);
+			path = bink;
+			sourceTree = "<group>";
+		};
+		FE45BBB21D0562B7005C7998 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				FE45BBB31D0562B7005C7998 /* c */,
+				FE45BBB41D0562B7005C7998 /* m */,
+				FE45BBB51D0562B7005C7998 /* v */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		FE45BBB31D0562B7005C7998 /* c */ = {
+			isa = PBXGroup;
+			children = (
+				FE45BBB61D0562F1005C7998 /* ZTFTabBarCon.h */,
+				FE45BBB71D0562F1005C7998 /* ZTFTabBarCon.m */,
+				FE45BBB91D056363005C7998 /* ZTFNCCon.h */,
+				FE45BBBA1D056363005C7998 /* ZTFNCCon.m */,
+			);
+			path = c;
+			sourceTree = "<group>";
+		};
+		FE45BBB41D0562B7005C7998 /* m */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = m;
+			sourceTree = "<group>";
+		};
+		FE45BBB51D0562B7005C7998 /* v */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = v;
+			sourceTree = "<group>";
+		};
+		FE8DAB3E1D0D5A5800DD9CFA /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				FE8DAB3F1D0D5A5800DD9CFA /* c */,
+				FE8DAB401D0D5A5800DD9CFA /* m */,
+				FE8DAB411D0D5A5800DD9CFA /* v */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		FE8DAB3F1D0D5A5800DD9CFA /* c */ = {
+			isa = PBXGroup;
+			children = (
+				FE45BBC51D057444005C7998 /* ZTF1TableViewController.h */,
+				FE45BBC61D057444005C7998 /* ZTF1TableViewController.m */,
+			);
+			path = c;
+			sourceTree = "<group>";
+		};
+		FE8DAB401D0D5A5800DD9CFA /* m */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = m;
+			sourceTree = "<group>";
+		};
+		FE8DAB411D0D5A5800DD9CFA /* v */ = {
+			isa = PBXGroup;
+			children = (
+				FE8DAB421D0D7BE900DD9CFA /* ZTFSaoController.h */,
+				FE8DAB431D0D7BE900DD9CFA /* ZTFSaoController.m */,
+				FE8DAB441D0D7BE900DD9CFA /* ZTFSaoController.xib */,
+			);
+			path = v;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE45BB961D05608A005C7998 /* binke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE45BBAE1D05608B005C7998 /* Build configuration list for PBXNativeTarget "binke" */;
+			buildPhases = (
+				FE45BB931D05608A005C7998 /* Sources */,
+				FE45BB941D05608A005C7998 /* Frameworks */,
+				FE45BB951D05608A005C7998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = binke;
+			productName = binke;
+			productReference = FE45BB971D05608A005C7998 /* binke.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE45BB8F1D05608A005C7998 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZTF;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "赵腾飞";
+				TargetAttributes = {
+					FE45BB961D05608A005C7998 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FE45BB921D05608A005C7998 /* Build configuration list for PBXProject "binke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE45BB8E1D05608A005C7998;
+			productRefGroup = FE45BB981D05608A005C7998 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE45BB961D05608A005C7998 /* binke */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE45BB951D05608A005C7998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8DAB461D0D7BE900DD9CFA /* ZTFSaoController.xib in Resources */,
+				FE45BBAA1D05608B005C7998 /* LaunchScreen.storyboard in Resources */,
+				FE45BBA71D05608B005C7998 /* Assets.xcassets in Resources */,
+				FE45BBA51D05608B005C7998 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE45BB931D05608A005C7998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3344D71D0E4E520081C8AB /* QRCodeManager.m in Sources */,
+				FE8DAB451D0D7BE900DD9CFA /* ZTFSaoController.m in Sources */,
+				FE80E89D1D0C37F300096EFF /* UIImage+Image1.m in Sources */,
+				FE3344EA1D0E9E1A0081C8AB /* ZTFShopViewController.m in Sources */,
+				FE3344ED1D0E9E260081C8AB /* ZTFCarViewController.m in Sources */,
+				FE3344F01D0E9E2E0081C8AB /* ZTFMyViewController.m in Sources */,
+				FE45BBA21D05608A005C7998 /* ViewController.m in Sources */,
+				FE45BBBB1D056363005C7998 /* ZTFNCCon.m in Sources */,
+				FE45BBC71D057444005C7998 /* ZTF1TableViewController.m in Sources */,
+				FE45BBB81D0562F1005C7998 /* ZTFTabBarCon.m in Sources */,
+				FE3344F31D0E9E3E0081C8AB /* ZTFClassViewController.m in Sources */,
+				FE45BB9F1D05608A005C7998 /* AppDelegate.m in Sources */,
+				FE45BB9C1D05608A005C7998 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE45BBA31D05608B005C7998 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE45BBA41D05608B005C7998 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE45BBA81D05608B005C7998 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE45BBA91D05608B005C7998 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE45BBAC1D05608B005C7998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE45BBAD1D05608B005C7998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE45BBAF1D05608B005C7998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = binke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.binke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE45BBB01D05608B005C7998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = binke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.binke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE45BB921D05608A005C7998 /* Build configuration list for PBXProject "binke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE45BBAC1D05608B005C7998 /* Debug */,
+				FE45BBAD1D05608B005C7998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE45BBAE1D05608B005C7998 /* Build configuration list for PBXNativeTarget "binke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE45BBAF1D05608B005C7998 /* Debug */,
+				FE45BBB01D05608B005C7998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE45BB8F1D05608A005C7998 /* Project object */;
+}
