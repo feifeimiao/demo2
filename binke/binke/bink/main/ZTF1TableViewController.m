@@ -12,6 +12,8 @@
 
 #import "UIImage+Image1.h"
 
+#import "UIBarButtonItem+item.h"
+
 @interface ZTF1TableViewController ()<UISearchBarDelegate>
 
 @property (strong , nonatomic) UIButton *btn;
@@ -37,56 +39,38 @@
     [super viewDidLoad];
     
     self.tableView.separatorStyle = NO;
-  
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-   
 
+    [self addNB];
     
-    [btn setTitle:@"  广州 " forState:UIControlStateNormal];
-
-    
-    [btn setImage:[UIImage imageNamed:@"icon_map_white"] forState:UIControlStateNormal];
-    
- 
-    btn.imageView.tintColor = [UIColor whiteColor];
-    
- 
-    [btn sizeToFit];
-    
-    self.navigationItem.leftBarButtonItem  = [[UIBarButtonItem alloc]initWithCustomView:btn];
-    
-    UISearchBar *se = [[UISearchBar alloc]init];
-
-    
-    se.placeholder = @"缤刻购物狂欢节";
-    
-    
-    
-    self.navigationItem.titleView = se;
-    
-    UIButton *rBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    
-    [rBtn setTintColor:[UIColor whiteColor]];
-    
-    [rBtn setImage:[UIImage imageNamed:@"icon_sao"] forState:UIControlStateNormal];
-    
-    [rBtn sizeToFit];
-    
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:rBtn];
-    
-    [rBtn addTarget:self action:@selector(sao) forControlEvents:UIControlEventTouchUpInside];
     
 }
 
 
+//添加item
+- (void)addNB{
+    //tit
+    UISearchBar *se = [[UISearchBar alloc]init];
+    se.placeholder = @"缤刻购物狂欢节";
+    self.navigationItem.titleView = se;
+    
+    //right
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"icon_sao"] selImage:nil  target:self action:@selector(sao)];
 
+    //left
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"icon_map_white"] selImage:nil name:@"   广州" target:self action:nil];
+    
+}
+
+
+//二维码界面
 - (void)sao
 {
  
     ZTFSaoController *sao = [[ZTFSaoController alloc]init];
     
-
+    
     [self.navigationController pushViewController:sao animated:YES];
+    
       
     
 }

@@ -24,6 +24,7 @@
 		FE80E89D1D0C37F300096EFF /* UIImage+Image1.m in Sources */ = {isa = PBXBuildFile; fileRef = FE80E89C1D0C37F300096EFF /* UIImage+Image1.m */; };
 		FE8DAB451D0D7BE900DD9CFA /* ZTFSaoController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8DAB431D0D7BE900DD9CFA /* ZTFSaoController.m */; };
 		FE8DAB461D0D7BE900DD9CFA /* ZTFSaoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8DAB441D0D7BE900DD9CFA /* ZTFSaoController.xib */; };
+		FEDA76C61D12567A00C0B4D1 /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDA76C51D12567A00C0B4D1 /* UIBarButtonItem+item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,8 @@
 		FE8DAB421D0D7BE900DD9CFA /* ZTFSaoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFSaoController.h; sourceTree = "<group>"; };
 		FE8DAB431D0D7BE900DD9CFA /* ZTFSaoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTFSaoController.m; sourceTree = "<group>"; };
 		FE8DAB441D0D7BE900DD9CFA /* ZTFSaoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZTFSaoController.xib; sourceTree = "<group>"; };
+		FEDA76C41D12567A00C0B4D1 /* UIBarButtonItem+item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+item.h"; sourceTree = "<group>"; };
+		FEDA76C51D12567A00C0B4D1 /* UIBarButtonItem+item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+item.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				FE80E89C1D0C37F300096EFF /* UIImage+Image1.m */,
 				FE3344D51D0E4E520081C8AB /* QRCodeManager.h */,
 				FE3344D61D0E4E520081C8AB /* QRCodeManager.m */,
+				FEDA76C41D12567A00C0B4D1 /* UIBarButtonItem+item.h */,
+				FEDA76C51D12567A00C0B4D1 /* UIBarButtonItem+item.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -423,6 +428,7 @@
 				FE45BBC71D057444005C7998 /* ZTF1TableViewController.m in Sources */,
 				FE45BBB81D0562F1005C7998 /* ZTFTabBarCon.m in Sources */,
 				FE3344F31D0E9E3E0081C8AB /* ZTFClassViewController.m in Sources */,
+				FEDA76C61D12567A00C0B4D1 /* UIBarButtonItem+item.m in Sources */,
 				FE45BB9F1D05608A005C7998 /* AppDelegate.m in Sources */,
 				FE45BB9C1D05608A005C7998 /* main.m in Sources */,
 			);

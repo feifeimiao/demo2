@@ -29,22 +29,24 @@
 
 @implementation ZTFTabBarCon
 
++ (void)load
+{
+    UITabBarItem *ta = [UITabBarItem appearanceWhenContainedInInstancesOfClasses:@[[ZTFTabBarCon class]]];
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    
+    dict[NSFontAttributeName] = [UIFont boldSystemFontOfSize:13];
+    [ta setTitleTextAttributes:dict forState:UIControlStateNormal];
+    
+     NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+    
+    dic[NSForegroundColorAttributeName] = [UIColor purpleColor];
+        [ta setTitleTextAttributes:dic forState:UIControlStateSelected];
+}
 
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    self.tabBar.tintColor = [UIColor purpleColor];
-    self.tabBar.barTintColor = [UIColor whiteColor];
-   
-    UITabBarItem *item = [UITabBarItem appearance];
-    
-    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
-    
-    dict[NSFontAttributeName] = [UIFont boldSystemFontOfSize:13];
-    [item setTitleTextAttributes:dict forState:UIControlStateNormal];
-    
     
 [self addAllChildVC];
     

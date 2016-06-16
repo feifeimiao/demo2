@@ -27,6 +27,10 @@
     UINavigationBar *bar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[[ZTFNCCon class]]];
     
 
+//    UIBarButtonItem *bur = [UIBarButtonItem appearanceWhenContainedInInstancesOfClasses:@[[ZTFNCCon class]]];
+    
+    
+    
     
     [bar setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
     [bar setShadowImage:[[UIImage alloc] init]];
@@ -35,15 +39,14 @@
     
     image = [image stretchableImageWithLeftCapWidth:image.size.width * 0.5 topCapHeight:image.size.height * 0.5];
     [bar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
-    
-    
-
-//    
+   
     //设置导航条标题属性
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     dict[NSForegroundColorAttributeName] = [UIColor whiteColor];
     dict[NSFontAttributeName] = [UIFont boldSystemFontOfSize:16];
     [bar setTitleTextAttributes:dict];
+    
+//    [bur setTitleTextAttributes:dict forState:UIControlStateNormal];
     
 }
 
@@ -53,9 +56,7 @@
     [super viewDidLoad];
 
 
-
-//    self.navigationBar.barTintColor = [UIColor purpleColor];
-
+    
     
     
 }
