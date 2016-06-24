@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D25D7A1A20A43B3158508011 /* libPods-binke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB57C87EC85B132DB9C5DCF /* libPods-binke.a */; };
 		FE3344D71D0E4E520081C8AB /* QRCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3344D61D0E4E520081C8AB /* QRCodeManager.m */; };
 		FE3344EA1D0E9E1A0081C8AB /* ZTFShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3344E91D0E9E1A0081C8AB /* ZTFShopViewController.m */; };
 		FE3344ED1D0E9E260081C8AB /* ZTFCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3344EC1D0E9E260081C8AB /* ZTFCarViewController.m */; };
@@ -24,10 +25,21 @@
 		FE80E89D1D0C37F300096EFF /* UIImage+Image1.m in Sources */ = {isa = PBXBuildFile; fileRef = FE80E89C1D0C37F300096EFF /* UIImage+Image1.m */; };
 		FE8DAB451D0D7BE900DD9CFA /* ZTFSaoController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8DAB431D0D7BE900DD9CFA /* ZTFSaoController.m */; };
 		FE8DAB461D0D7BE900DD9CFA /* ZTFSaoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8DAB441D0D7BE900DD9CFA /* ZTFSaoController.xib */; };
+		FEAF87EC1D19657500A6CCC0 /* ZTFPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAF87EA1D19657500A6CCC0 /* ZTFPageView.m */; };
+		FEAF87ED1D19657500A6CCC0 /* ZTFPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEAF87EB1D19657500A6CCC0 /* ZTFPageView.xib */; };
+		FEB21CF41D183063002AE778 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB21CF31D183063002AE778 /* UIView+Frame.m */; };
+		FEB21CF81D1831C2002AE778 /* ZTFSYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB21CF61D1831C2002AE778 /* ZTFSYTableViewCell.m */; };
+		FEB21CF91D1831C2002AE778 /* ZTFSYTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB21CF71D1831C2002AE778 /* ZTFSYTableViewCell.xib */; };
 		FEDA76C61D12567A00C0B4D1 /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDA76C51D12567A00C0B4D1 /* UIBarButtonItem+item.m */; };
+		FEEE177D1D1D2A9200FEAF74 /* ZTFBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE177C1D1D2A9200FEAF74 /* ZTFBViewController.m */; };
+		FEEE17801D1D2B7700FEAF74 /* ZTFClViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE177F1D1D2B7700FEAF74 /* ZTFClViewController.m */; };
+		FEEE17831D1D2B9100FEAF74 /* ZTFBrandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEE17821D1D2B9100FEAF74 /* ZTFBrandViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AB57C87EC85B132DB9C5DCF /* libPods-binke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-binke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8975888681E12F7918B30BC /* Pods-binke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-binke.release.xcconfig"; path = "Pods/Target Support Files/Pods-binke/Pods-binke.release.xcconfig"; sourceTree = "<group>"; };
+		D85F36DF125140A4A4D82045 /* Pods-binke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-binke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-binke/Pods-binke.debug.xcconfig"; sourceTree = "<group>"; };
 		FE3344D51D0E4E520081C8AB /* QRCodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeManager.h; sourceTree = "<group>"; };
 		FE3344D61D0E4E520081C8AB /* QRCodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeManager.m; sourceTree = "<group>"; };
 		FE3344E81D0E9E1A0081C8AB /* ZTFShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFShopViewController.h; sourceTree = "<group>"; };
@@ -56,11 +68,25 @@
 		FE45BBC61D057444005C7998 /* ZTF1TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTF1TableViewController.m; path = ../../main/ZTF1TableViewController.m; sourceTree = "<group>"; };
 		FE80E89B1D0C37F300096EFF /* UIImage+Image1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Image1.h"; path = "../../UIImage+Image1.h"; sourceTree = "<group>"; };
 		FE80E89C1D0C37F300096EFF /* UIImage+Image1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Image1.m"; path = "../../UIImage+Image1.m"; sourceTree = "<group>"; };
-		FE8DAB421D0D7BE900DD9CFA /* ZTFSaoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFSaoController.h; sourceTree = "<group>"; };
-		FE8DAB431D0D7BE900DD9CFA /* ZTFSaoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTFSaoController.m; sourceTree = "<group>"; };
-		FE8DAB441D0D7BE900DD9CFA /* ZTFSaoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZTFSaoController.xib; sourceTree = "<group>"; };
+		FE8DAB421D0D7BE900DD9CFA /* ZTFSaoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTFSaoController.h; path = ../v/ZTFSaoController.h; sourceTree = "<group>"; };
+		FE8DAB431D0D7BE900DD9CFA /* ZTFSaoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTFSaoController.m; path = ../v/ZTFSaoController.m; sourceTree = "<group>"; };
+		FE8DAB441D0D7BE900DD9CFA /* ZTFSaoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZTFSaoController.xib; path = ../v/ZTFSaoController.xib; sourceTree = "<group>"; };
+		FEAF87E91D19657500A6CCC0 /* ZTFPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFPageView.h; sourceTree = "<group>"; };
+		FEAF87EA1D19657500A6CCC0 /* ZTFPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTFPageView.m; sourceTree = "<group>"; };
+		FEAF87EB1D19657500A6CCC0 /* ZTFPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZTFPageView.xib; sourceTree = "<group>"; };
+		FEB21CF21D183063002AE778 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		FEB21CF31D183063002AE778 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		FEB21CF51D1831C2002AE778 /* ZTFSYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFSYTableViewCell.h; sourceTree = "<group>"; };
+		FEB21CF61D1831C2002AE778 /* ZTFSYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTFSYTableViewCell.m; sourceTree = "<group>"; };
+		FEB21CF71D1831C2002AE778 /* ZTFSYTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZTFSYTableViewCell.xib; sourceTree = "<group>"; };
 		FEDA76C41D12567A00C0B4D1 /* UIBarButtonItem+item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+item.h"; sourceTree = "<group>"; };
 		FEDA76C51D12567A00C0B4D1 /* UIBarButtonItem+item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+item.m"; sourceTree = "<group>"; };
+		FEEE177B1D1D2A9200FEAF74 /* ZTFBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFBViewController.h; sourceTree = "<group>"; };
+		FEEE177C1D1D2A9200FEAF74 /* ZTFBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTFBViewController.m; sourceTree = "<group>"; };
+		FEEE177E1D1D2B7700FEAF74 /* ZTFClViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFClViewController.h; sourceTree = "<group>"; };
+		FEEE177F1D1D2B7700FEAF74 /* ZTFClViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTFClViewController.m; sourceTree = "<group>"; };
+		FEEE17811D1D2B9100FEAF74 /* ZTFBrandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFBrandViewController.h; sourceTree = "<group>"; };
+		FEEE17821D1D2B9100FEAF74 /* ZTFBrandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTFBrandViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,15 +94,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25D7A1A20A43B3158508011 /* libPods-binke.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8184E59B67DA7700AA05F0DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D85F36DF125140A4A4D82045 /* Pods-binke.debug.xcconfig */,
+				B8975888681E12F7918B30BC /* Pods-binke.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B6BAB471A0AF5D3594A0D4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AB57C87EC85B132DB9C5DCF /* libPods-binke.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FE3344D41D0E4E520081C8AB /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				FEB21CF21D183063002AE778 /* UIView+Frame.h */,
+				FEB21CF31D183063002AE778 /* UIView+Frame.m */,
 				FE80E89B1D0C37F300096EFF /* UIImage+Image1.h */,
 				FE80E89C1D0C37F300096EFF /* UIImage+Image1.m */,
 				FE3344D51D0E4E520081C8AB /* QRCodeManager.h */,
@@ -102,6 +148,10 @@
 			children = (
 				FE3344F11D0E9E3E0081C8AB /* ZTFClassViewController.h */,
 				FE3344F21D0E9E3E0081C8AB /* ZTFClassViewController.m */,
+				FEEE177E1D1D2B7700FEAF74 /* ZTFClViewController.h */,
+				FEEE177F1D1D2B7700FEAF74 /* ZTFClViewController.m */,
+				FEEE17811D1D2B9100FEAF74 /* ZTFBrandViewController.h */,
+				FEEE17821D1D2B9100FEAF74 /* ZTFBrandViewController.m */,
 			);
 			path = c;
 			sourceTree = "<group>";
@@ -224,6 +274,8 @@
 			children = (
 				FE45BB991D05608A005C7998 /* binke */,
 				FE45BB981D05608A005C7998 /* Products */,
+				8184E59B67DA7700AA05F0DB /* Pods */,
+				9B6BAB471A0AF5D3594A0D4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -263,6 +315,8 @@
 		FE45BBB11D0562B7005C7998 /* bink */ = {
 			isa = PBXGroup;
 			children = (
+				FEEE177B1D1D2A9200FEAF74 /* ZTFBViewController.h */,
+				FEEE177C1D1D2A9200FEAF74 /* ZTFBViewController.m */,
 				FE3344D81D0E898F0081C8AB /* 分类  */,
 				FE3344DC1D0E898F0081C8AB /* 个人 */,
 				FE3344E01D0E898F0081C8AB /* 购物车 */,
@@ -324,6 +378,9 @@
 			children = (
 				FE45BBC51D057444005C7998 /* ZTF1TableViewController.h */,
 				FE45BBC61D057444005C7998 /* ZTF1TableViewController.m */,
+				FE8DAB421D0D7BE900DD9CFA /* ZTFSaoController.h */,
+				FE8DAB431D0D7BE900DD9CFA /* ZTFSaoController.m */,
+				FE8DAB441D0D7BE900DD9CFA /* ZTFSaoController.xib */,
 			);
 			path = c;
 			sourceTree = "<group>";
@@ -338,9 +395,12 @@
 		FE8DAB411D0D5A5800DD9CFA /* v */ = {
 			isa = PBXGroup;
 			children = (
-				FE8DAB421D0D7BE900DD9CFA /* ZTFSaoController.h */,
-				FE8DAB431D0D7BE900DD9CFA /* ZTFSaoController.m */,
-				FE8DAB441D0D7BE900DD9CFA /* ZTFSaoController.xib */,
+				FEB21CF51D1831C2002AE778 /* ZTFSYTableViewCell.h */,
+				FEB21CF61D1831C2002AE778 /* ZTFSYTableViewCell.m */,
+				FEB21CF71D1831C2002AE778 /* ZTFSYTableViewCell.xib */,
+				FEAF87E91D19657500A6CCC0 /* ZTFPageView.h */,
+				FEAF87EA1D19657500A6CCC0 /* ZTFPageView.m */,
+				FEAF87EB1D19657500A6CCC0 /* ZTFPageView.xib */,
 			);
 			path = v;
 			sourceTree = "<group>";
@@ -352,9 +412,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE45BBAE1D05608B005C7998 /* Build configuration list for PBXNativeTarget "binke" */;
 			buildPhases = (
+				BD2486967EDAC8D28C9D2E7E /* [CP] Check Pods Manifest.lock */,
 				FE45BB931D05608A005C7998 /* Sources */,
 				FE45BB941D05608A005C7998 /* Frameworks */,
 				FE45BB951D05608A005C7998 /* Resources */,
+				4BE01C9E8E8B2465DDE9D02A /* [CP] Embed Pods Frameworks */,
+				ECE8ACE19FC4E9994BADA9FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -405,12 +468,62 @@
 			files = (
 				FE8DAB461D0D7BE900DD9CFA /* ZTFSaoController.xib in Resources */,
 				FE45BBAA1D05608B005C7998 /* LaunchScreen.storyboard in Resources */,
+				FEAF87ED1D19657500A6CCC0 /* ZTFPageView.xib in Resources */,
 				FE45BBA71D05608B005C7998 /* Assets.xcassets in Resources */,
+				FEB21CF91D1831C2002AE778 /* ZTFSYTableViewCell.xib in Resources */,
 				FE45BBA51D05608B005C7998 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BE01C9E8E8B2465DDE9D02A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-binke/Pods-binke-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD2486967EDAC8D28C9D2E7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE8ACE19FC4E9994BADA9FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-binke/Pods-binke-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FE45BB931D05608A005C7998 /* Sources */ = {
@@ -419,16 +532,22 @@
 			files = (
 				FE3344D71D0E4E520081C8AB /* QRCodeManager.m in Sources */,
 				FE8DAB451D0D7BE900DD9CFA /* ZTFSaoController.m in Sources */,
+				FEB21CF81D1831C2002AE778 /* ZTFSYTableViewCell.m in Sources */,
 				FE80E89D1D0C37F300096EFF /* UIImage+Image1.m in Sources */,
+				FEB21CF41D183063002AE778 /* UIView+Frame.m in Sources */,
+				FEAF87EC1D19657500A6CCC0 /* ZTFPageView.m in Sources */,
 				FE3344EA1D0E9E1A0081C8AB /* ZTFShopViewController.m in Sources */,
 				FE3344ED1D0E9E260081C8AB /* ZTFCarViewController.m in Sources */,
 				FE3344F01D0E9E2E0081C8AB /* ZTFMyViewController.m in Sources */,
+				FEEE17801D1D2B7700FEAF74 /* ZTFClViewController.m in Sources */,
 				FE45BBA21D05608A005C7998 /* ViewController.m in Sources */,
 				FE45BBBB1D056363005C7998 /* ZTFNCCon.m in Sources */,
 				FE45BBC71D057444005C7998 /* ZTF1TableViewController.m in Sources */,
 				FE45BBB81D0562F1005C7998 /* ZTFTabBarCon.m in Sources */,
 				FE3344F31D0E9E3E0081C8AB /* ZTFClassViewController.m in Sources */,
+				FEEE177D1D1D2A9200FEAF74 /* ZTFBViewController.m in Sources */,
 				FEDA76C61D12567A00C0B4D1 /* UIBarButtonItem+item.m in Sources */,
+				FEEE17831D1D2B9100FEAF74 /* ZTFBrandViewController.m in Sources */,
 				FE45BB9F1D05608A005C7998 /* AppDelegate.m in Sources */,
 				FE45BB9C1D05608A005C7998 /* main.m in Sources */,
 			);
@@ -542,6 +661,7 @@
 		};
 		FE45BBAF1D05608B005C7998 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D85F36DF125140A4A4D82045 /* Pods-binke.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = binke/Info.plist;
@@ -553,6 +673,7 @@
 		};
 		FE45BBB01D05608B005C7998 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8975888681E12F7918B30BC /* Pods-binke.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = binke/Info.plist;

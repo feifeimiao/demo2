@@ -14,9 +14,19 @@
 
 #import "UIBarButtonItem+item.h"
 
+#import "UIView+Frame.h"
+
+#import "ZTFSYTableViewCell.h"
+
+#import "ZTFPageView.h"
+
+
+    static NSString *ID = @"cellID";
 @interface ZTF1TableViewController ()<UISearchBarDelegate>
 
 @property (strong , nonatomic) UIButton *btn;
+
+@property (strong , nonatomic) ZTFSYTableViewCell *ce;
 
 @end 
 
@@ -29,30 +39,51 @@
 }
 
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    self.parentViewController.tabBarController.tabBar.hidden = NO;
-    
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     self.tableView.separatorStyle = NO;
+    
+    self.tableView.rowHeight = 160;
 
     [self addNB];
     
+    [self.tableView registerNib:[UINib nibWithNibName:@"ZTFSYTableViewCell" bundle:nil] forCellReuseIdentifier:ID];
     
+
+    
+    
+
+}
+
+- (void)viewDidLayoutSubviews
+{
+    [super viewDidLayoutSubviews];
+    
+    self.tableView.tableHeaderView.frame = CGRectMake(5, 10, [UIScreen mainScreen].bounds.size.width - 10, 160);
+
+ 
 }
 
 
 //添加item
 - (void)addNB{
-    //tit
-    UISearchBar *se = [[UISearchBar alloc]init];
+//    //tit
+    UISearchBar *se = [[UISearchBar alloc]initWithFrame:CGRectZero];
     se.placeholder = @"缤刻购物狂欢节";
-    self.navigationItem.titleView = se;
+    [se sizeToFit];
+    [se setSearchFieldBackgroundImage:[UIImage imageNamed:@"bg_user"] forState:UIControlStateNormal];
+
+//    [se setSearchFieldBackgroundImage:[UIImage imageNamed:@"bg_user"] forState:UIControlStateNormal];
+
     
+    self.navigationItem.titleView = se;
+    self.navigationItem.titleView.width = 20;
+    
+    
+
+    
+//    [se setTranslucent:YES];
     //right
     self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"icon_sao"] selImage:nil  target:self action:@selector(sao)];
 
@@ -68,10 +99,8 @@
  
     ZTFSaoController *sao = [[ZTFSaoController alloc]init];
     
-    
+    sao.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:sao animated:YES];
-    
-      
     
 }
 
@@ -79,9 +108,8 @@
 
 
 #pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
     return 4;
 }
 
@@ -94,32 +122,30 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 
-    static NSString *ID = @"cellID";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
-    if (cell == nil) {
-      cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:ID];
+
+    UITableViewCell *cell1 = [[UITableViewCell alloc]init];
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID forIndexPath:indexPath];
+    if (indexPath.section == 0 && indexPath.row == 0){
+        ZTFSYTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID forIndexPath:indexPath];
+cell.vi.layer.cornerRadius = 10;
+    
+    cell.vi.superview.layer.cornerRadius = 10;
+        cell.backgroundColor  = [UIColor lightGrayColor];
+    cell.layer.cornerRadius = 10;
+    cell.selectedBackgroundView.layer.cornerRadius = 10;
+       
+       cell1 = cell;
     }
-
-cell.textLabel.text = @"ccc";
-    return cell;
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
-{
-    return 5;
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
-{
-    return 1;
+  
+//    cell.backgroundView.subviews[0] = cell[indexPath]section
+   
+ return cell1;
     
 }
 
-- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
-{
 
-}
- 
+
+
 
 
 @end

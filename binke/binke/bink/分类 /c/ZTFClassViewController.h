@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZTFClassViewController : UIViewController
+#import "ZTFBViewController.h"
+
+@interface ZTFClassViewController :ZTFBViewController
 
 @end

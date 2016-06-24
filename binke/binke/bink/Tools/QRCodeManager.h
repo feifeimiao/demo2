@@ -17,7 +17,6 @@
  *
  *  @param inputMsg 二维码保存的信息
  *  @param fgImage  前景图片
- *
  *  @return 返回的二维码图片
  */
 - (UIImage *)generateQRCodeWithMsg:(NSString *)inputMsg fgImage:(UIImage *)fgImage;
