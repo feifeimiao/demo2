@@ -10,6 +10,6 @@
 
 @interface ZTFSYTableViewCell : UITableViewCell
 @property (strong, nonatomic)  UIScrollView *sv;
-@property (weak, nonatomic) IBOutlet UIView *vi;
+
 
 @end

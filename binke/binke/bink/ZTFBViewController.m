@@ -146,17 +146,17 @@ static NSString * const ID = @"cell";
 #pragma  mark - 添加所有子类
 - (void)addAllChildView
 {
+    ZTFClViewController *cl = [[ZTFClViewController alloc]init];
+    
+    cl.title = @"分类";
+    
+    [self addChildViewController:cl];
     ZTFBrandViewController *brand  = [[ZTFBrandViewController alloc]init];
     
-    brand.title = @"分类";
+    brand.title = @"品牌";
     
     [self addChildViewController:brand];
     
-    ZTFClViewController *cl = [[ZTFClViewController alloc]init];
-    
-    cl.title = @"品牌";
-    
-    [self addChildViewController:cl];
     
     
 

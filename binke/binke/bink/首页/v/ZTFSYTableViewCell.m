@@ -9,8 +9,7 @@
 #import "ZTFSYTableViewCell.h"
 
 #import "UIView+Frame.h"
-
-#import "ZTFPageView.h"
+#import "SDCycleScrollView.h"
 
 @interface ZTFSYTableViewCell ()
 
@@ -21,18 +20,38 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
 
+
     
-    ZTFPageView *pageView = [ZTFPageView pageView];
-    
-    pageView.frame = self.vi.frame;
-    
-    pageView.imageNames = @[@"img_01",@"img_02",@"img_03",@"img_04",@"img_05"];
-    
-    self.vi.layer.cornerRadius = 10;
-    
-    [self.contentView addSubview:pageView];
+
 }
 
+
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
+
+    
+    if (self = [ super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        NSArray *imageNames = @[@"h1.jpg",
+                                @"h2.jpg",
+                                @"h3.jpg",
+                                @"h4.jpg",
+                                // 本地图片请填写全名
+                                ];
+            SDCycleScrollView *xunhuan = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0  , 0, self.width, self.heigth) imageNamesGroup:imageNames];
+
+        xunhuan.autoScrollTimeInterval = 5;
+        [self.contentView addSubview:xunhuan];
+        
+    
+        
+        self.backgroundColor = [UIColor clearColor];
+        self.selected = NO;
+    }
+    
+    return self;
+
+    
+
+}
 
 
 
@@ -41,15 +60,20 @@
 {
     [super layoutSubviews];
 
-    UIView *vv = self.contentView.subviews[0];
+    UIView *view1 = self.contentView.subviews[0];
     
-    vv.frame = CGRectMake(0,  0, self.contentView.frame.size.width , self.contentView.frame.size.height);
+    
+    view1.frame = CGRectMake(0, 0, self.width, self.heigth);
+    self.contentView.layer.cornerRadius = 6;
+    self.contentView.layer.masksToBounds = YES;
 
+
+  
 }
 
 - (void)setFrame:(CGRect)frame
 {
-//      self.sv.frame = CGRectMake(self.x, self.y, self.width, self.heigth);
+
     frame.origin.x += 10;
     frame.size.width -= 20;
 
